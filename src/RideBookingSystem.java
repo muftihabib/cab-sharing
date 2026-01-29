@@ -12,7 +12,7 @@ public class RideBookingSystem {
     public RideBookingSystem(){
         try {
             Class.forName("org.postgresql.Driver");
-            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres","Muftips@0781");
+            connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/database", "username","Password");
 
 
         } catch (Exception e) {
